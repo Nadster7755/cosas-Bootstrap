@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+
+<style>
+.header{
+    background-color: green;
+}
+
+.columna1, .columna2, .columna3{
+    background-color: rebeccapurple;
+    height: 20rem;
+    text-align: center;
+}
+
+.pie1, .pie2{
+    background-color: yellow;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="row header p-2 mt-3 border border-dark">
+    <h2>header</h2>
+</div>
+
+
+<div class="row d-flex justify-content-between mt-2">
+
+    <div class="col-md-3 col-sm-5 columna1">
+        <h2>1</h2>
+    </div>
+
+    <div class="col-md-3 col-sm-5 columna2">
+        <h2>2</h2>
+    </div>
+
+    <div class="col-md-3 col-sm-12 mt-sm-2 columna3">
+        <h2>3</h2>
+    </div>
+
+</div>
+
+
+<div class="row text-center d-flex justify-content-between mt-3">
+
+    <div class="col-md-5 pie1">
+        <h3>footer1</h3>
+    </div>
+
+    <div class="col-md-5 pie2">
+        <h3>footer2</h3>
+    </div>
+
+</div>
+
+
+
+
+
+</div>
+
+<style>
+    @media (max-width:575px) {
+        .header{
+            background-color: lightgreen;
+            text-align: center;
+        }
+
+
+        .columna1, .columna2, .columna3{
+            margin-top: 5px;
+        }
+
+        .columna1{
+            text-align: left;
+        }
+
+        .columna3{
+            text-align: right;
+        }
+
+        .pie2{
+            margin-top: 5px;
+        }
+    }
+
+
+    @media (min-width:576px) and (max-width:1080px) {
+        .header{
+            background-color: aqua;
+        }
+
+        
+
+       
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

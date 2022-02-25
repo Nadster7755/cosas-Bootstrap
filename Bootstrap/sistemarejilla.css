@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 50%;
+    
+}
+
+.fondo1{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid gray;
+}
+.fondo2{
+    background-color: rgb(9, 255, 0);
+    border: 2px solid gray;
+}
+.fondo3{
+    background-color: rgb(47, 85, 255);
+    border: 2px solid gray;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
